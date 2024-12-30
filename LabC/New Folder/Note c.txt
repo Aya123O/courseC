@@ -1,0 +1,149 @@
+1-signed number :
+  -128:127 
+  EX -129 => 127
+  EX -130 => 126
+  EX 129 => -127
+ ********************************************************* 
+2- unsigned number :
+ 0:255
+ EX 256 => 0
+ EX 258 => 2
+ *********************************************************
+3- if (cond){                    //need to write condition  to print Hello Mina
+ printf("Hello");
+}else{
+printf("MIna");
+}
+if (!printf("Hello")){          // printf=> print Hello then return number of character 5 if(5)=>ture
+                                 but need to run else so (!5)
+i
+ printf("Hello");
+}else{
+printf("MIna");
+}
+****************************************************************
+4-if(1){}
+else{
+printf("False"); // no output as the condition ture but no exsist code to run 
+} 
+*******************************************************************
+5-if(1){}
+else{
+printf("False");
+printf("mina");     //print mina that it isnot belong to else if no {} only first printf belong to else
+}
+*************************************************************************
+6-int x = 5;
+ if (5==x)
+ printf("yes"); //print yes 
+
+    return 0;
+}
+*******************************************************************
+7-int x = 5;
+ if (x==5)
+ printf("yes"); // print yes
+    return 0;
+}
+*******************************************************************
+8- int x = 5;
+ if (x=6)
+ printf("yes"); // assign x =6 not compare 
+    return 0;
+}
+*********************************
+9-int x = 5;
+ if (6=x)
+ printf("yes"); // contains a syntax error. Specifically, the expression 6 = x is invalid because the left-hand side 
+                  of an assignment (=) must be a variable (or something that        hold a value), not a constant like 6
+   return 0;
+}
+**************************************************************
+10- If (x==5)
+Printf ("Hello");;
+Else 
+Printf ("Hi") // error two statment after if and  printf only belong to if ; empty statement  seperate between if and else  
+                 if we put  if{} no error two statement belong two if condition
+*********************************
+11- for loop when you know number of iteration
+    while donot know number of iteration
+    switch :
+            1- case must be unique  (not reapeat)
+            2- must be constant not variable
+***************************************************
+12- decrement better or increment : 
+    decrement => check only on time when flag of register =0
+    increment => check many times and busy cpu
+    
+*************************************************************
+13- for (int i=0;i<10;i++){
+    if (i==5) continue;
+    printf("%d",i);
+}
+int i=-1 ; // not zero as not print 0 i++=>1 start from 1 not 
+while(i<10){
+i++;
+if(i==5){
+continue ;
+}
+printf("%d",i);
+}
+****************
+int i=0 ; // no
+while(i<10){
+
+if(i!=5){
+printf("%d",i);
+}
+i++;
+}
+***********************************************************
+14-for (int i=0;i<10;i++){
+    printf("%d",i);
+    if (i==5) break;
+   
+}// 0 1  2  3  4 5
+******************************************************
+for (int i=0;i<10;i++){
+    printf("%d",i);
+    if (i==5) {i=11;};
+   
+}// 0 1  2  3  4 5
+*******************************************************
+ //using flag 
+ int exist =0 ;
+ for (int i=0;i<10 && exist ==0;i++){
+    printf("%d",i);
+    if (i==5) {exist=1;};
+   
+}// 0 1  2  3  4 5
+
+********************************************************************************************************************************************************************************
+15- int x=0 ,y=0 ;                   //short cricut 
+   if (y && ++ x)printf("Hello");
+   printf("%d %d \n ",x,y); // 0 0
+ ***********************************************
+ int x=0 ,y=0 ;
+   if (y || ++ x)printf("Hello");
+   printf("%d %d \n ",x,y); // 1 0
+**************************************************   
+int x=0 ,y=1 ;
+   if (y || ++ x)printf("Hello");
+   printf("%d %d \n ",x,y); // Hello 0 1
+ ***********************************************
+ int x=0 ,y=0 ;
+   if (y && x++)printf("Hello");
+   printf("%d %d \n ",x,y); // 0 0
+ **********************************************
+ int x=1 ,y=1 ;
+   if (y && x++)printf("Hello");
+   printf("%d %d \n ",x,y); // Hello  1 1 
+
+
+
+
+
+
+
+
+ 

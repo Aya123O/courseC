@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1732262644 source:/home/aya/Desktop/Menu/main.c
+	<ctype.h>
+	<windows.h>
+	<unistd.h>
+	<termios.h>
+
+1732264418 source:/home/aya/Desktop/Menu/test.c
+	<stdio.h>
+	<ctype.h>
+	<windows.h>
+	<unistd.h>
+	<termios.h>
+
+1733256310 source:/home/aya/Desktop/LabC/Menu/test.c
+	<ctype.h>
+	<windows.h>
+	<unistd.h>
+	<termios.h>
+
+1733258436 source:/home/aya/Desktop/LabC/Menu/main.c
+	<stdio.h>
+	<ctype.h>
+	<windows.h>
+	<unistd.h>
+	<termios.h>
+

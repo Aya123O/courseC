@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1731869175 source:/home/aya/Desktop/Day2/main.c
+	<stdio.h>
+	<stdlib.h>
+
+1732019732 source:/home/aya/Desktop/New Folder/Day2/main.c
+	<stdio.h>
+	<stdlib.h>
+

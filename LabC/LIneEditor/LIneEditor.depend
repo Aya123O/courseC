@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1732467838 source:/home/aya/Desktop/LIneEditor/main.c
+	<stdio.h>
+	<string.h>
+	"conio.h"
+
+1732442412 source:/home/aya/Desktop/LIneEditor/aya.c
+	"stdio.h"
+	"conio.h"
+
+1732442404 /home/aya/Desktop/LIneEditor/conio.h
+	<termios.h>
+	<unistd.h>
+	<stdio.h>
+	<fcntl.h>
+	<stdlib.h>
+	<string.h>
+
+1732442412 source:/home/aya/Desktop/LIneEditor/aya.x
+	"stdio.h"
+	"conio.h"
+

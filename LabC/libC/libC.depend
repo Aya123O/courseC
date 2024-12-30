@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1732607418 source:/home/aya/Desktop/libC/lib1.c
+
+1732626034 source:/home/aya/Desktop/libC/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lib.h"
+
+1732607039 /home/aya/Desktop/libC/lib.h
+
